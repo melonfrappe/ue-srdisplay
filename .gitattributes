@@ -8,7 +8,7 @@
 #点群_相良橋_1_1M.uasset filter=lfs diff=lfs merge=lfs -text
 #現況地形_白石.uasset filter=lfs diff=lfs merge=lfs -text
 #SM_MERGED_ALL.uasset filter=lfs diff=lfs merge=lfs -text
-#Pointcloud_Outside3.uasset filter=lfs diff=lfs merge=lfs -text
-#Pointcloud_1F_1-5.uasset filter=lfs diff=lfs merge=lfs -text
-#Pointcloud_2F_1-7.uasset filter=lfs diff=lfs merge=lfs -text
-#Pointcloud_tenjyo_1-9.uasset filter=lfs diff=lfs merge=lfs -text
+Pointcloud_Outside3.uasset filter=lfs diff=lfs merge=lfs -text
+Pointcloud_1F_1-5.uasset filter=lfs diff=lfs merge=lfs -text
+Pointcloud_2F_1-7.uasset filter=lfs diff=lfs merge=lfs -text
+Pointcloud_tenjyo_1-9.uasset filter=lfs diff=lfs merge=lfs -text

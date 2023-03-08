@@ -94,5 +94,5 @@ Content/MSPresets/*
 #Content/Twinmotion/*
 
 #Content/Twinmotion/kitakyusyu_v4/Geometries/*
-Content/Twinmotion/kitakyusyu_v4/Materials/*
+#Content/Twinmotion/kitakyusyu_v4/Materials/*
 Content/Twinmotion/kitakyusyu_v4/Textures/*

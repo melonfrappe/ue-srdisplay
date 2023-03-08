@@ -79,10 +79,10 @@ DerivedDataCache/*
 #点群_相良橋_1_1M.uasset
 #現況地形_白石.uasset
 #SM_MERGED_ALL.uasset
-Pointcloud_Outside3.uasset
-Pointcloud_1F_1-5.uasset
-Pointcloud_2F_1-7.uasset
-Pointcloud_tenjyo_1-9.uasset
+#Pointcloud_Outside3.uasset
+#Pointcloud_1F_1-5.uasset
+#Pointcloud_2F_1-7.uasset
+#Pointcloud_tenjyo_1-9.uasset
 
 
 Content/_Meshes/*

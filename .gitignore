@@ -89,7 +89,7 @@ Content/_Meshes/*
 Content/_Maps/*
 #Content/_Blueprints/*
 #Content/_glTF/*
-Content/_Materials/*
+#Content/_Materials/*
 Content/MSPresets/*
 Content/Twinmotion/*
 

@@ -91,5 +91,6 @@ Content/_Meshes/*
 #Content/_glTF/*
 #Content/_Materials/*
 Content/MSPresets/*
-Content/Twinmotion/*
+#Content/Twinmotion/*
+Content/Twinmotion/kitakyusyu_v4/*
 

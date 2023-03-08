@@ -2,7 +2,7 @@
 * text=auto
 
 #Content/Twinmotion/kitakyusyu_v4/Textures/* filter=lfs diff=lfs merge=lfs -text
-#40100-bldg-136224-1.uasset filter=lfs diff=lfs merge=lfs -text
+40100-bldg-136224-1.uasset filter=lfs diff=lfs merge=lfs -text
 #相良橋_v5.uasset filter=lfs diff=lfs merge=lfs -text
 #米田川_v2__1_.uasset filter=lfs diff=lfs merge=lfs -text
 #点群_相良橋_1_1M.uasset filter=lfs diff=lfs merge=lfs -text

@@ -87,7 +87,7 @@ Pointcloud_tenjyo_1-9.uasset
 
 Content/_Meshes/*
 Content/_Maps/*
-Content/_Blueprints/*
+#Content/_Blueprints/*
 #Content/_glTF/*
 Content/_Materials/*
 Content/MSPresets/*

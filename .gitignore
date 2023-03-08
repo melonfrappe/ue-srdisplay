@@ -90,7 +90,7 @@ Content/_Meshes/*
 #Content/_Blueprints/*
 #Content/_glTF/*
 #Content/_Materials/*
-Content/MSPresets/*
+#Content/MSPresets/*
 #Content/Twinmotion/*
 
 #Content/Twinmotion/kitakyusyu_v4/Geometries/*

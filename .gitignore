@@ -85,7 +85,7 @@ DerivedDataCache/*
 #Pointcloud_tenjyo_1-9.uasset
 
 
-Content/_Meshes/*
+#Content/_Meshes/*
 #Content/_Maps/*
 #Content/_Blueprints/*
 #Content/_glTF/*

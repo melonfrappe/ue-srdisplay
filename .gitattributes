@@ -12,3 +12,6 @@ Pointcloud_Outside3.uasset filter=lfs diff=lfs merge=lfs -text
 Pointcloud_1F_1-5.uasset filter=lfs diff=lfs merge=lfs -text
 Pointcloud_2F_1-7.uasset filter=lfs diff=lfs merge=lfs -text
 Pointcloud_tenjyo_1-9.uasset filter=lfs diff=lfs merge=lfs -text
+
+1_3all-2-tail.uasset filter=lfs diff=lfs merge=lfs -text
+1_Q11023-1all.uasset filter=lfs diff=lfs merge=lfs -text

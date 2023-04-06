@@ -15,3 +15,5 @@ Pointcloud_tenjyo_1-9.uasset filter=lfs diff=lfs merge=lfs -text
 
 1_3all-2-tail.uasset filter=lfs diff=lfs merge=lfs -text
 1_Q11023-1all.uasset filter=lfs diff=lfs merge=lfs -text
+
+0411_araike第二調節池排水門v2_4.uasset filter=lfs diff=lfs merge=lfs -text

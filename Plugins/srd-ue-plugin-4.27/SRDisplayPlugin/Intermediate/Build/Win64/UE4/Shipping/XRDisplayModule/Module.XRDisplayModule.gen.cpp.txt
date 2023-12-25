@@ -1,0 +1,7 @@
+C:\Users\b0574\Documents\GitHub\ue-srdisplay\Plugins\srd-ue-plugin-4.27\SRDisplayPlugin\Intermediate\Build\Win64\UE4\Shipping\XRDisplayModule\Definitions.XRDisplayModule.h
+C:/Users/b0574/Documents/GitHub/ue-srdisplay/Plugins/srd-ue-plugin-4.27/SRDisplayPlugin/Intermediate/Build/Win64/UE4/Inc/XRDisplayModule/XRDisplayModule.init.gen.cpp
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:/Users/b0574/Documents/GitHub/ue-srdisplay/Plugins/srd-ue-plugin-4.27/SRDisplayPlugin/Intermediate/Build/Win64/UE4/Inc/XRDisplayModule/XRDisplayModuleBPLibrary.gen.cpp
+C:\Users\b0574\Documents\GitHub\ue-srdisplay\Plugins\srd-ue-plugin-4.27\SRDisplayPlugin\Source\XRDisplayModule/Public/XRDisplayModuleBPLibrary.h
+C:\Users\b0574\Documents\GitHub\ue-srdisplay\Plugins\srd-ue-plugin-4.27\SRDisplayPlugin\Intermediate\Build\Win64\UE4\Inc\XRDisplayModule\XRDisplayModuleBPLibrary.generated.h

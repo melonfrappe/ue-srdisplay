@@ -1,0 +1,51 @@
+{
+	"FileVersion": 3,
+	"Version": 1.2,
+	"VersionName": "1.2.2",
+	"FriendlyName": "SpatialLabs",
+	"Description": "Support SpatialLabs Pro Devices",
+	"Category": "Virtual Reality",
+	"CreatedBy": "Acer",
+	"CreatedByURL": "https://www.acer.com/us-en/SpatialLabs",
+	"DocsURL": "https://spatialLabs.acer.com/developer",
+	"MarketplaceURL": "",
+	"SupportURL": "https://developer-spatiallabs.atlassian.net/servicedesk/customer/portals",
+	"EnabledByDefault": false,
+	"CanContainContent": true,
+	"EngineVersion": "4.27",
+	"IsBetaVersion": false,
+	"Installed": false,
+	"SupportedTargetPlatforms": [
+		"Win32",
+		"Win64"
+	],
+	"Modules": [
+		{
+			"Name": "SpatialLabsCore",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"WhitelistPlatforms": [
+				"Win32",
+				"Win64"
+			]
+		},
+		{
+			"Name": "SpatialLabsDevice",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit",
+			"WhitelistPlatforms": [
+				"Win32",
+				"Win64"
+			]
+		},
+		{
+			"Name": "SpatialLabsEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit",
+			"WhitelistPlatforms": [
+				"Win32",
+				"Win64"
+			]
+		}
+	]
+}

@@ -1,0 +1,8 @@
+{
+	"OutputFiles": [
+		"Module.XRDisplayModule.cpp.obj",
+		"Module.XRDisplayModule.gen.cpp.obj",
+		"load_library_utility.cc.obj",
+		"xr_api_wrapper.cc.obj"
+	]
+}

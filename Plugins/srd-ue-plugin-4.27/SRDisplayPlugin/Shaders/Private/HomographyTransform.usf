@@ -1,0 +1,39 @@
+#include "/Engine/Private/Common.ush"
+
+
+/* PixelShader */
+
+Texture2D InTexture;
+SamplerState InTextureSampler;
+float4x4 InLeftHomographyMatrix;
+float4x4 InRightHomographyMatrix;
+
+float2 HomographiedUV(float2 viewport_pos, float4x4 homography_mat) {
+  float s = homography_mat[2][0] * viewport_pos.x +
+            homography_mat[2][1] * viewport_pos.y + homography_mat[2][2];
+  float x = (homography_mat[0][0] * viewport_pos.x +
+             homography_mat[0][1] * viewport_pos.y + homography_mat[0][2]) /
+            s;
+  float y = (homography_mat[1][0] * viewport_pos.x +
+             homography_mat[1][1] * viewport_pos.y + homography_mat[1][2]) /
+            s;
+  return float2(x, y);
+}
+
+float4 MainPS(FScreenVertexOutput Input) : SV_Target
+{	
+	float2 input_uv = Input.UV;
+
+	bool is_left = input_uv.x < 0.5;
+	if(is_left) {
+		float2 uv = float2(input_uv.x * 2, input_uv.y);
+		float2 homographied_uv = HomographiedUV(uv, InLeftHomographyMatrix);
+		homographied_uv.x = homographied_uv.x / 2;
+		return Texture2DSample(InTexture, InTextureSampler, homographied_uv);
+	} else {
+		float2 uv = float2((input_uv.x - 0.5) * 2, input_uv.y);
+		float2 homographied_uv = HomographiedUV(uv, InRightHomographyMatrix);
+		homographied_uv.x = 0.5 + homographied_uv.x / 2;
+		return Texture2DSample(InTexture, InTextureSampler, homographied_uv);
+	}
+}

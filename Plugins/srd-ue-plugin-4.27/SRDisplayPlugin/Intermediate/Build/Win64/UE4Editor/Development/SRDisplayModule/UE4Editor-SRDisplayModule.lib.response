@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-SRDisplayModule.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\b0574\Documents\GitHub\ue-srdisplay\Intermediate\Build\Win64\SRDisplaySamplesEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.Cpp17.h.obj"
+"C:\Users\b0574\Documents\GitHub\ue-srdisplay\Plugins\srd-ue-plugin-4.27\SRDisplayPlugin\Intermediate\Build\Win64\UE4Editor\Development\SRDisplayModule\Module.SRDisplayModule.cpp.obj"
+"C:\Users\b0574\Documents\GitHub\ue-srdisplay\Plugins\srd-ue-plugin-4.27\SRDisplayPlugin\Intermediate\Build\Win64\UE4Editor\Development\SRDisplayModule\Module.SRDisplayModule.gen.cpp.obj"
+"C:\Users\b0574\Documents\GitHub\ue-srdisplay\Plugins\srd-ue-plugin-4.27\SRDisplayPlugin\Intermediate\Build\Win64\UE4Editor\Development\SRDisplayModule\Default.rc2.res"
+/OUT:"C:\Users\b0574\Documents\GitHub\ue-srdisplay\Plugins\srd-ue-plugin-4.27\SRDisplayPlugin\Intermediate\Build\Win64\UE4Editor\Development\SRDisplayModule\UE4Editor-SRDisplayModule.lib"

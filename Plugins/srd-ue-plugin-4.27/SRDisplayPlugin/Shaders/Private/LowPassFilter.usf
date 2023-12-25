@@ -1,0 +1,51 @@
+#include "/Engine/Private/Common.ush"
+
+/* PixelShader */
+
+Texture2D InTexture;
+SamplerState InTextureSampler;
+int Is9tap; //0(false) or 1(true)
+
+float4 LowPassFilter_9tap(float2 inputPos)
+{
+	float4 l4 = InTexture[inputPos + int2(-4, 0)] * (-8.2844764696373547e-18);
+	float4 l3 = InTexture[inputPos + int2(-3, 0)] * (-6.9433820583776326e-02);
+	float4 l2 = InTexture[inputPos + int2(-2, 0)] * (+1.6568952939274709e-17);
+	float4 l1 = InTexture[inputPos + int2(-1, 0)] * (+3.1245219262699347e-01);
+	float4 c  = InTexture[inputPos + int2( 0, 0)] * (+5.1396325591356573e-01);
+	float4 r1 = InTexture[inputPos + int2( 1, 0)] * (+3.1245219262699347e-01);
+	float4 r2 = InTexture[inputPos + int2( 2, 0)] * (+1.6568952939274709e-17);
+	float4 r3 = InTexture[inputPos + int2( 3, 0)] * (-6.9433820583776326e-02);
+	float4 r4 = InTexture[inputPos + int2( 4, 0)] * (-8.2844764696373547e-18);
+
+	return l4 + l3 + l2 + l1 + c + r1 + r2 + r3 + r4;
+}
+
+float4 LowPassFilter_8tap(float2 inputPos)
+{
+	float4 l4 = InTexture[inputPos + int2(-4, 0)] * 0;
+	float4 l3 = InTexture[inputPos + int2(-3, 0)] * (-3.5322906942948783e-02);
+	float4 l2 = InTexture[inputPos + int2(-2, 0)] * (-6.9232897608179605e-02);
+	float4 l1 = InTexture[inputPos + int2(-1, 0)] * (+1.4078332945667019e-01);
+	float4 c  = InTexture[inputPos + int2( 0, 0)] * (+4.6377247509445824e-01);
+	float4 r1 = InTexture[inputPos + int2( 1, 0)] * (+4.6377247509445824e-01);
+	float4 r2 = InTexture[inputPos + int2( 2, 0)] * (+1.4078332945667019e-01);
+	float4 r3 = InTexture[inputPos + int2( 3, 0)] * (-6.9232897608179605e-02);
+	float4 r4 = InTexture[inputPos + int2( 4, 0)] * (-3.5322906942948783e-02);
+
+	return l4 + l3 + l2 + l1 + c + r1 + r2 + r3 + r4;
+}
+
+float4 MainPS(FScreenVertexOutput Input) : SV_Target
+{
+	float2 input_pos = Input.Position.xy;
+
+	if (Is9tap == 1)
+	{
+		return LowPassFilter_9tap(input_pos);
+	}
+	else
+	{
+		return LowPassFilter_8tap(input_pos);
+	}
+}

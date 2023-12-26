@@ -1,0 +1,34 @@
+{
+	"FileVersion": 3,
+	"Version": 2,
+	"VersionName": "2.2.0",
+	"FriendlyName": "SRDisplayPlugin",
+	"Description": "Renders 3D contents to Spatial Reality Display.",
+	"Category": "Virtual Reality",
+	"CreatedBy": "Sony Corporation",
+	"CreatedByURL": "https://www.sony.net",
+	"DocsURL": "https://www.sony.net/dev-srd",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "4.27.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "XRDisplayModule",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "SRDisplayModule",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		}
+	]
+}

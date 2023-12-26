@@ -374,14 +374,6 @@
 		{
 			"Name": "GLTFImporter",
 			"Enabled": true
-		},
-		{
-			"Name": "SpatialLabs",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win32",
-				"Win64"
-			]
 		}
 	],
 	"TargetPlatforms": [

@@ -1,8 +1,0 @@
-{
-	"BuildId": "17155196",
-	"Modules": 
-	{
-		"SRDisplayModule": "UE4Editor-SRDisplayModule.dll",
-		"XRDisplayModule": "UE4Editor-XRDisplayModule.dll"
-	}
-}
